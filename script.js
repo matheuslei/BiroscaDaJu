@@ -162,7 +162,7 @@ function sendData() {
 
       // Aguardar 3 segundos e, em seguida, redirecionar para a página inicial
       setTimeout(function () {
-        window.location.href = "/";
+        window.location.href = "https://birosca-da-ju.vercel.app/";
       }, 3000); // 3000 milissegundos (3 segundos)
     })
     .catch((error) => {
