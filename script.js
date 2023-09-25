@@ -149,6 +149,7 @@ function sendData() {
 
   fetch("https://api.sheetmonkey.io/form/xuCL3Q9ZZdMQkGoVp6fXWu", {
     method: "POST",
+    mode: "no-cors",
     headers: {
       Accept: "application/json",
       "Content-Type": "application/json",
